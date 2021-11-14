@@ -40,3 +40,6 @@ def signup(request):
 
 def course(request):
     return render(request,'courseLink.html')
+
+def links(request):
+    return render(request,'links.html')
